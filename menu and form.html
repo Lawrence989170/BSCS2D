@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML AND CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        
+        <section class="menu-section">
+            
+                <h1>THE DAILY GRIND</h1>
+                <p>Our Menu</p>
+           
+            <div class="menu">
+                <div class="menu-category">
+                    <h2>Ice Cream</h2>
+                    <ul>
+                        <li><span class="item-name">Chocolate</span> - <span class="item-price">49.00</span></li>
+                        <li><span class="item-name">Caramel</span> - <span class="item-price">49.00</span></li>
+                        <li><span class="item-name">Strawberry Vanilla</span> - <span class="item-price">49.00</span></li>
+                        <li><span class="item-name">Vanilla Chocolate</span> - <span class="item-price">49.00</span></li>
+                        <li><span class="item-name">Chocolate Blueberry</span> - <span class="item-price">49.00</span></li>
+                        <li><span class="item-name">Vanilla Crispy</span> - <span class="item-price">49.00</span></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </section>
+
+        
+        <section class="feedback-section">
+            <header>
+                <h1>Feedback Form</h1>
+                <p>We'd love to hear from you!</p>
+            </header>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="rating">Rating:</label>
+                <select id="rating" name="rating" required>
+                    <option value="" disabled selected>Select a rating</option>
+                    <option value="1">1 - Very Dissatisfied</option>
+                    <option value="2">2 - Dissatisfied</option>
+                    <option value="3">3 - Neutral</option>
+                    <option value="4">4 - Satisfied</option>
+                    <option value="5">5 - Very Satisfied</option>
+                </select>
+
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
